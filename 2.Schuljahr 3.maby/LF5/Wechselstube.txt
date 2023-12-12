@@ -1,0 +1,51 @@
+import java.util.Scanner;
+
+public class Wechselstube {
+
+	public static void main(String[] args) {
+		// Kleingeld wechsel dich
+		int euro = 0;
+		int cent = 0;
+		int EuroCent = 0;
+		int zweiEuro = 0;
+		int einEuro = 0;
+		int fünfzigCent = 0;
+		int zwanzigCent = 0; 
+		int zehnCent = 0;
+		int fünfCent = 0;
+		int zweiCent = 0;
+		int einCent = 0;
+		Scanner tastatur = new Scanner(System.in);
+		System.out.print("Wie viel Euro haben Sie?");
+		euro = tastatur.nextInt();
+		System.out.print("Wie viel Cent haben Sie");
+		cent = tastatur.nextInt();
+		EuroCent = euro * 100 + cent;
+		System.out.println("Sie bekommen " + EuroCent + " Cent");
+		zweiEuro = EuroCent / 200;
+		int Rest1 = EuroCent % 200;
+		einEuro = Rest1 / 100;
+		int Rest2 = Rest1 % 100;
+		fünfzigCent = Rest2 / 50;
+		int Rest3 = Rest2 % 50;
+		zwanzigCent = Rest3 / 20;
+		int Rest4 = Rest3 % 20;
+		zehnCent = Rest4 / 10;
+		int Rest5 = Rest4 % 10;
+		fünfCent = Rest5 / 5;
+		int Rest6 = Rest5 % 5;
+		zweiCent = Rest6 / 2;
+		int Rest7 = Rest6 % 2;
+		einCent = Rest7 / 1;
+		System.out.println("2 Euro Stück: " + zweiEuro);
+		System.out.println("1 Euro Stück: " + einEuro);
+		System.out.println("50 Cent Stück: " + fünfzigCent);
+		System.out.println("20 Cent Stück: " + zwanzigCent);
+		System.out.println("10 Cent Stück: " + zehnCent);
+		System.out.println("5 Cent Stück: " + fünfCent);
+		System.out.println("2 Cent Stück: " + zweiCent);
+		System.out.println("1 Cent Stück: " + einCent);
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+LS Hello World
+
+1. Einführung in die Grundlagen der Programmierung
+(Hinweis: die Eigenschaften von Algorithmen finden Sie im Skript Grundlagen der Programmierung I in diesem Abschnitt)
+
+3. Erstes EVA-Programm
+(Hilfreich ist auch hier nochmal in das Skript Grundlagen der Programmierung III in diesem Abschnitt zu schauen)
+
+LS Fahrkartenautomat
+
+1. Datentypen, Variablen und Operatoren  
+(Hier sollten die Abschnitte A1.2 und A1.4 gut verstanden worden sein)

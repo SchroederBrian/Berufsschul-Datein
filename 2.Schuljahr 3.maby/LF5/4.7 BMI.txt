@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+
+public class BMI {
+
+   public static void main(String[] args) {
+		double Körpergröße ;
+		double Gewicht  ;
+		String M = new String("M");
+		String W = new String("W");
+		String Geschlecht = new String("");
+		double BMI;
+		double Rechnung ;
+
+		try (Scanner tastatur = new Scanner(System.in)) {
+			System.out.print("Bitte geben Sie Ihre Körpergröße in m ein: ");
+			Körpergröße = tastatur.nextDouble();
+			
+			System.out.print("Bitte geben Sie Ihr Gewicht in kg ein: ");
+			Gewicht = tastatur.nextDouble();
+			
+			System.out.print("Bitte geben Sie Ihr Geschlecht ein M/W:");
+			Geschlecht = tastatur.next () ;
+			
+			
+			tastatur.close();
+			
+			
+			
+			//Rechnung 
+			Rechnung= Körpergröße * Körpergröße ;
+			BMI= Gewicht / Rechnung ;
+			
+			
+			
+	 if ( Geschlecht.equals (M) ) {
+				
+			if(BMI <20) {
+				System.out.println("Untergewicht!");}
+      else if(BMI>=20 && BMI<=25) {
+            	System.out.println("Normalgewicht.");}
+      else if(BMI>25) {
+    	  		System.out.println("Übergewicht!Du musst dringend Abnehmen!");}
+		}
+    		
+		     else if  ( Geschlecht.equals (W)) {
+             if(BMI <19) {
+            	 			System.out.println("Untergewicht!");}
+             else if(BMI>=19 && BMI<=24) {
+   				            System.out.println("Normalgewicht!");}
+             else if(BMI>24) { 
+            	 			System.out.println("Übergewicht!Du musst dringend Abnehmen!");}
+		}	          
+          
+             
+				
+			}
+			
+		}
+   
+}

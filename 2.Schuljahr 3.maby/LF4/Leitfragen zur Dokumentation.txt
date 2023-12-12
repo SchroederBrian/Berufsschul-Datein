@@ -1,0 +1,49 @@
+Leitfragen zur Dokumentation 
+
+1) typische Opfer: 
+
+Unternehmen / Konzerne ( mit geringer Sicherheit, evtl ohne Backup, finanzstark )
+Krankenhäuser
+Internetanbieter und deren Kunden
+Regierungseinrichtungen
+
+2) Folgen Cyberattacken: 
+
+betriebsbedingte Störung/Stillstand
+Verdienstausfall/Bankrott
+Existenzvernichtung  
+Datenverlust
+Arbeitsplatzverlust
+Datenzugriff verweigert
+Patientenbehandlung eingeschränkt
+Mehrarbeit durch Mitarbeiter
+wirtschaftlicher Schaden
+Umsatzverlust
+Kundenverlust
+Imageverlust
+
+3) Reaktion der Opfer: 
+
+Fassungslosigkeit
+Ratlosigkeit
+Hilflosigkeit
+Widerstand gegen Erpressung
+Wut
+Kämpferisch - Polizei eingeschaltet
+Jobangst/Existenzangst
+Abschaltung Systeme - Schadensbegrenzung
+eigenständiges Wiederherstellen mittels Backups
+Bewusstsein für schwere der Gefahr entwickelt
+
+
+4) Art der Angriffssoftware:
+
+Ransomware - Schadprogramme
+Datendiebstahl
+Zugriffsverweigerung
+
+5) Tätigkeit Cybersecurity-Forensiker: 
+
+Einsatz Spitzel / Spionage
+Daten auslesen - Auffälligkeiten
+

@@ -1,0 +1,24 @@
+OUI und OUA = BIA --> Burned in Address
+
+OUA - organizationally unique address
+OUI - organizationally unique identifier
+
+MAC Adresse durch - getrennt : Windows
+		  : getrennt : Linux, Unix, MAC
+		  . getrennt : Cisco
+
+Layer-2 Broadcast ff.ff.ff.ff.ff.ff
+Layer-3 Broadcast 255.255.255.255
+
+192.168.178.50 /24
+255.255.255.255
+
+Netz ID: 192.168.178.0
+Broadcast 192.169.178.255
+
+freie IPs 192.168.178.1 - 192.168.178.254
+
+MAC; IPv4; IPv6 
+Zahlensysteme Dezimal, Binär, Hexadezimal
+Präfix 
+Subnetzmaske

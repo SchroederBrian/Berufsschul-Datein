@@ -1,0 +1,46 @@
+import java.util.Scanner;
+public class Rabattsystem {
+
+   public static void main(String[] args) {
+	   double Bestellwert ;
+		double Ergebnis ;
+		double Ergebnis1  ;
+		double Ergebnis2  ;
+		
+		
+		try (Scanner tastatur = new Scanner(System.in)) {
+			System.out.print("Bitte geben Sie Ihren Bestellwert ein: ");
+			Bestellwert = tastatur.nextDouble();
+			tastatur.close();
+		}
+		
+		if (100 >= Bestellwert ) {
+			Ergebnis1 = Bestellwert / 100 ;
+					Ergebnis2= Ergebnis1 * 10; 
+					Ergebnis = Bestellwert - Ergebnis2;
+					System.out.println("\n");
+					System.out.printf("Der Bestellwert abzüglich Rabatt beträgt %.2f "  + " Euro",Ergebnis);
+		  }else {
+		 		
+		 if	( 500 >= Bestellwert) {
+	        	  Ergebnis1 = Bestellwert / 100 ;
+					Ergebnis2= Ergebnis1 * 15;
+					Ergebnis = Bestellwert - Ergebnis2;
+					System.out.println("\n"); 
+					System.out.printf("Der Bestellwert abzüglich Rabatt beträgt %.2f "  + " Euro",Ergebnis);
+		             }else {
+		 		
+			 if	( 500 < Bestellwert) {
+		        	  Ergebnis1 = Bestellwert / 100 ;
+						Ergebnis2= Ergebnis1 * 20;
+						Ergebnis = Bestellwert - Ergebnis2;
+						
+	          
+						System.out.println("\n");
+	            System.out.printf("Der Bestellwert abzüglich Rabatt beträgt %.2f "  + " Euro",Ergebnis);
+				
+	      }
+		  }
+   }
+}
+}

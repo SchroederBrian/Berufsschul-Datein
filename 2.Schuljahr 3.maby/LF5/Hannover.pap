@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="3DF74F9CD3E1B958">
+  <PROJECT FORMAT="1.00" NAME="Hannover" AUTHOR="Notebook" CREATED="2022.11.29 10:40:42" MODIFIED="2022.11.29 12:57:21">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="Hauptprogramm 1" CREATED="2022.11.29 10:40:50" MODIFIED="2022.11.29 12:57:21">
+        <LAYOUT FORMAT="1.00" COLUMNS="5" ROWS="15">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="48">
+                <TEXT><![CDATA[fahrtzeit = fahrzeit + 96]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="12">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="51">
+                <TEXT><![CDATA["Sie erreichen Hamburg nach " + fahrtzeit + " Minuten"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="13">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="53">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="10">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="89">
+                <TEXT><![CDATA[fahrtzeit = fahrzeit + 62]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="12">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="94">
+                <TEXT><![CDATA["Sie erreichen Hannvoer nach " + fahrtzeit + " Minuten"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="13">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="91">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="10">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="82">
+                <TEXT><![CDATA[Halt in Braunschweig?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="11">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="96">
+                <TEXT><![CDATA[fahrtzeit = fahrtzeit + 50]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="12">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="87">
+                <TEXT><![CDATA["Sie erreichen Braunschweig nach " + fahrzeit + " Minuten"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="13">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="84">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Hauptprogramm 1]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="2">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[fahrzeit = 0]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[fahrzeit = fahrzeit + 8]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Halt in Spandau?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="5">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="101">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="6">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="41">
+                <TEXT><![CDATA[Fahrt nach Hamburg?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="18">
+                <TEXT><![CDATA[fahrtzeit = fahrtzeit + 34]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="8">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="19">
+                <TEXT><![CDATA[Fahrt über Stendal HBF?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="9">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="24">
+                <TEXT><![CDATA[fahrtzeit = fahrtzeit + 16]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="10">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="58">
+                <TEXT><![CDATA[Halt Wolfsburg?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="11">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="35">
+                <TEXT><![CDATA[fahrtzeit = fahrtzeit + 29]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="12">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="71">
+                <TEXT><![CDATA["Sie erreichen Wolfsburg nach " + fahrzeit + " Minuten"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="13">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="55">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="14">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[fahrtzeit = fahrtzeit + 2]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="5">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="98">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="8">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="23">
+                <TEXT><![CDATA[fahrtzeit = fahrtzeit + 6]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="10">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="31">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="102" FROM="101" TO="41" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="8" TO="12" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="103" FROM="98" TO="101" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="16" FROM="18" TO="19" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="29" FROM="41" TO="18" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="20" FROM="19" TO="24" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="22" FROM="19" TO="23" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="25" FROM="24" TO="58" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="56" FROM="55" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="101" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="75" FROM="31" TO="58" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="76" FROM="23" TO="31" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="81" FROM="58" TO="82" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="104" FROM="12" TO="98" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="43" FROM="41" TO="48" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="52" FROM="48" TO="51" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="54" FROM="51" TO="53" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="85" FROM="84" TO="55" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="59" FROM="58" TO="35" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="57" FROM="53" TO="91" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="78" FROM="71" TO="55" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="34" FROM="35" TO="71" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="83" FROM="82" TO="89" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="92" FROM="91" TO="84" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="86" FROM="82" TO="96" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="88" FROM="87" TO="84" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="93" FROM="89" TO="94" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="95" FROM="94" TO="91" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="97" FROM="96" TO="87" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>

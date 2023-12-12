@@ -1,0 +1,49 @@
+Arbeitsblatt Variablen und Operatoren
+
+
+public class Konfigurationstest {
+
+	public static void main(String[] args) {
+		// Übung 1a und 1b
+		int cent;
+		cent = 70;
+		cent = 80;
+		double maximum = 95.50;
+		//Übung 2
+		short zahl1 = -1000;
+		float zahl2 = 1.255F;
+		char zeichen1 = '#';
+		byte zahl3 = 8;
+		long zahl4 = 2147483648L;
+		//Übung 3
+		String satz="Der Ball ist rund und muss ins Eckige";
+		final short CHECK_NR=8765;
+		//Übung 4
+		// Datentypen helfen dabei den Bereich einer Variablen einzuschränken
+		//Operatoren
+		//Übung 1
+		byte ergebnis = 4 + 8 * 9 - 1;
+		System.out.println(ergebnis);
+		
+		byte zaehler = 1;
+		zaehler++;
+		System.out.println(zaehler);
+		
+		byte division = 22/6;
+		System.out.println(division);
+		
+		byte schalter = 10;
+		boolean vergleich = ( schalter > 7 && schalter < 12 );
+		System.out.println(vergleich);
+		boolean vergleich2 = ( schalter != 10 || schalter == 12 );
+		System.out.println(vergleich2);
+		
+		String zeichenkette = "Meine Oma " + "fährt im " + "Hühnerstall Motorrad";
+		System.out.println(zeichenkette);
+		
+	}
+
+
+
+
+
