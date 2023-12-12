@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class Summe {
+
+	public static void main(String[] args) {
+		
+		Scanner tastatur = new Scanner(System.in);
+
+		int zahl; 
+		int i = 0 ;
+		int summe = 0;
+		char richtung = ' ';
+		
+		
+		System.out.print("Geben Sie bitte eine Zahl ein: ");
+		zahl = tastatur.nextInt();
+		System.out.println("Möchten Sie vorwärts 'v' oder rückwärts 'r' zählen");
+		richtung = tastatur.next().charAt(0);
+		
+		if (richtung == 'v') {
+		while (i < zahl) {
+			i++;
+			summe = summe +i;
+			System.out.println(i);
+		}
+		System.out.println();
+		System.out.println("Die Summe beträgt: " + summe);
+		} else if (richtung == 'r')  {
+			i = zahl;
+			while ( i > 0 ) {
+					summe = summe + i;
+					System.out.println(i);
+					i--;
+			}
+			System.out.println();
+			System.out.println("Die Summe beträgt: " + summe);
+		}
+			tastatur.close();
+	}
+
+}

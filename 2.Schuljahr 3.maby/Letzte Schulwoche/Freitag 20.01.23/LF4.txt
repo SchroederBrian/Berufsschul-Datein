@@ -1,0 +1,32 @@
+Prinzipien bei der Schutzbedarfsfeststellung:
+
+Vererbung: Schutzbedarf des Einkaufsgeschäftsprozesses vererbt sich auf die in der Einkaufsabteilung benutzten Anwendungen.
+
+Kumulationsprinzip: Schutzbedarf kann sich erhöhen, wenn mehr als eine Anwendung ausfällt.
+
+Maximumprinzip: "Die höchste Schutzbedarfskategorie bestimmt den Schutzbedarf anderer Komponenten.
+
+
+Übung-Schutzbedarfsfeststellung
+
+
+
+4. Durchführung einer Risikoanalyse für erhöhten Schutzbedarf
+Grundlagen der Risikoanalyse:
+
+Risiko = Schaden x Eintrittswahrscheinlichkeit
+Es gibt qualitative und quantitaive Riskoanalyse (qualitativ: Mit Adjektiven kategorisiert, quantitativ: Mit Zahlenwerten)
+
+Phasen der Risikoanalyse:
+1. Risikoidentifikation
+2. Risiken analysieren
+3. Risikobewertung
+4. Risikobehandlung
+
+Risikobehandlung:
+Akzeptieren
+Minimieren
+Eliminieren
+Übertragen
+
+Ein geringes Risiko zeichnet sich dadurch aus, dass die Eintrittswahrscheinlichkeit gering ist und der Schaden gering.
